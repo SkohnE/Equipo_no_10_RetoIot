@@ -1,5 +1,5 @@
 import mysql.connector
-from datetime import datetime
+from datetime
 import random
 
 def add_user(name, age):
