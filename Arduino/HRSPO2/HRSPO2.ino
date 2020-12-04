@@ -30,8 +30,8 @@ void loop() {
       particleSensor.check();
    redBuffer = particleSensor.getRed();
    irBuffer = particleSensor.getIR();
-   //hrBuffer = analogRead(sensorHR);
+   hrBuffer = analogRead(sensorHR);
    Serial.println(redBuffer);
    Serial.println(irBuffer);
-   //Serial.println(hrBuffer);
+   Serial.println(hrBuffer);
 }
